@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
  
 var name = {imie: "Jan", nazwisko: "Tarnawski", klasa: "3i2", grupa: "Ia"}
 
-app.get("/", function (req, res) {
+app.get("/data", function (req, res) {
     res.send(name);
 })
 
